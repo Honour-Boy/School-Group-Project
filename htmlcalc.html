@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="csscalc.css">
+    <title>PROJECT</title>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Bio Data</a></li>
+            <li style="border-bottom: solid 5px rgb(172, 169, 163);"><a href="htmlcalc.html">Calculator</a></li>
+            <li><a href="form.html">Forms</a></li>
+        </ul>
+    </div>
+    <div id="calculator">
+        <h1><big>CALCULATOR</big> </h1>
+        <input type="text" id="display" disabled><button id="backspace">|></button>
+                <br>
+                <div id="buttons">
+                    <button id="clear">ac</button>
+                    <button class="btn">7</button>
+                    <button class="btn">8</button>
+                    <button class="btn">9</button>
+                    <button class="btn" id="/">/</button>
+                    <button class="btn">%</button>
+                    <br>
+                    <button id="ob" class="btn">(</button>
+                    <button id="cb" class="btn">)</button>
+                    <button class="btn">4</button>
+                    <button class="btn">5</button>
+                    <button class="btn">6</button>
+                    <button class="btn">x</button>
+                    <button class="btn">+/-</button>
+                    <table>
+                        <tr>
+                            <td><button class="btn">x<sup>x</sup> </button></td>
+                            <td><button class="btn">1</button></td>
+                            <td><button class="btn">2</button></td>
+                            <td><button class="btn">3</button></td>
+                            <td><button class="btn">-</button></td>
+                            <td rowspan="2"><button id="equals">=</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="btn">&Sqrt;</button></td>
+                            <td colspan="2"><button id="o" class="btn">0</button></td>
+                            <td><button class="btn">.</button></td>
+                            <td><button class="btn">+</button></td>
+                        </tr>
+                    </table>
+                </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>

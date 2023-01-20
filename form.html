@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formcss.css">
+    <title>PROJECT</title>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Bio Data</a></li>
+            <li><a href="htmlcalc.html">Calculator</a></li>
+            <li style="border-bottom: solid 5px rgb(172, 169, 163);"><a href="form.html">Forms</a></li>
+        </ul>
+    </div>
+    <form id="person-form" action="biodata.html">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <label for="matric no">Matric No:</label>
+            <input type="text" id="matno" placeholder="Enter your matriculation number">
+        </div>
+        <div class="form-group">
+            <label for="DOB">DOB:</label>
+            <input type="date" id="DOB" placeholder="Enter your date of birth">
+        </div>
+        <div class="form-group">
+            <label for="gender">Gender:</label><br>
+            <input type="radio" name="gender" id="gen"><Label>Male</Label><br>
+            <input type="radio" name="gender" id="gen"><label >Female</label>
+        </div>
+        <form id="person-form">
+            <div class="form-group">
+                <label for="course">Course:</label>
+                <input type="text" id="course" placeholder="Enter your Course">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="tel" id="email" placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+</body>
+
+</html>

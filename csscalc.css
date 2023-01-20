@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(219, 170, 20);
+    background: linear-gradient(to right, rgb(46, 130, 147), rgb(35, 27, 17));
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    width: 490px;
+    margin: 20px;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    margin: 20px;
+}
+.nav li{
+    width: 33.33%;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 7.5px;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(46, 130, 147);
+    width: 100%;
+    padding: 21px;
+    text-align: center;
+    background-color: rgb(54, 50, 43);
+}
+
+.nav a:hover{
+    background-color: rgb(172, 169, 163);
+}
+
+#calculator {
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dedada;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+#display {
+    width: 85%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    text-align: right;
+    font-size: 24px;
+}
+
+#backspace {
+    width: 10.5%;
+    height: 70px;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+}
+
+#buttons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 16.66%;
+    height: 50px;
+    padding: 10px;
+    margin: 0;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    font-size: 24px;
+}
+
+#buttons button:hover {
+    background-color: #eee;
+}
+
+#equals {
+    width: 33.33%;
+}
+
+#clear{
+    width: 16.66%;
+}
+
+#ob, #cb {
+    width: 8.33%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr td{
+    width: 16.66%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+table tr td button{
+    width: 100%;
+    height: 100%;
+}
+
+table tr td #equals{
+    width: 100%;
+    height: 100%;
+}
+
