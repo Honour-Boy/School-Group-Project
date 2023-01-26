@@ -98,7 +98,6 @@ input[type="submit"]:hover {
 
 .people-container {
     width: 500px;
-    height: 500px;
     overflow: hidden;
 }
 
@@ -115,7 +114,7 @@ input[type="submit"]:hover {
     border: solid 2px rgb(31, 30, 30);
     border-radius: 20px;
     background-color: #ccc;
-    padding: 22px;
+    padding: 20px;
 }
 
 #Main a{
