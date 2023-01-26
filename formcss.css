@@ -115,8 +115,9 @@ input[type="submit"]:hover {
     width: 50%;
     border: solid 2px rgb(31, 30, 30);
     border-radius: 20px;
+    font-size: 1.2vw;
     background-color: #ccc;
-    padding: 26px;
+    padding: 25px;
 }
 
 #Main a{
