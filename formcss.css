@@ -99,13 +99,13 @@ input[type="submit"]:hover {
 
 .people-container {
     width: 500px;
-    height: 510px;
+    height: 500px;
     overflow: hidden;
 }
 
 #Main table{
     width: 500px;
-    height: 500px;
+    height: 40vh;
     background: none;
     font-size: 20px;
     text-align: center;
@@ -116,7 +116,7 @@ input[type="submit"]:hover {
     border: solid 2px rgb(31, 30, 30);
     border-radius: 20px;
     background-color: #ccc;
-    padding: 24px;
+    padding: 26px;
 }
 
 #Main a{
