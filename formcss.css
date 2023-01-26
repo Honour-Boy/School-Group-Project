@@ -99,13 +99,13 @@ input[type="submit"]:hover {
 
 .people-container {
     width: 500px;
-    height: 540px;
+    height: 510px;
     overflow: hidden;
 }
 
 #Main table{
     width: 500px;
-    height: 510px;
+    height: 500px;
     background: none;
     font-size: 20px;
     text-align: center;
