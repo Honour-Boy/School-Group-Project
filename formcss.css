@@ -88,7 +88,6 @@ input[type="submit"]:hover {
 
 .people-container table{
     width: 500px;
-    height: 40vh;
     background-color: #ccc;
     font-size: 20px;
 }
