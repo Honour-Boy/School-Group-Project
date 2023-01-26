@@ -116,7 +116,8 @@ input[type="submit"]:hover {
     border: solid 2px rgb(31, 30, 30);
     border-radius: 20px;
     background-color: #ccc;
-    padding: 26px;
+    font-size: 1.2vw;
+    padding: 25px;
 }
 
 #Main a{
